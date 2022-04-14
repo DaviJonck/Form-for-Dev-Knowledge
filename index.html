@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Knowledge For Companies 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+
+
+<body>
+
+    <main>
+        <!-- First part of the Form - Contact Area -->
+        <div class="container">
+            <div class="header">
+                <h2>Dev Knowledge for Companies</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Name:</label>
+                    <input required placeholder="Enter your Name" id="username" type="text">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email:</label>
+                    <input required placeholder="Enter your Email" id="email" type="email">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form-control">
+                    <label for="age">Age:</label>
+                    <input required placeholder="Enter your Age" id="age" type="number">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form-control">
+                    <label for="phone">Phone:</label>
+                    <input required placeholder="Enter your Phone" id="phone" type="tel">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+
+
+
+                <!-- Second part - Knowledge Area-->
+
+                <div class="devknow">
+                    <h4>Knowledge:</h4>
+                    <label for="html">HTML:</label>
+                    <input required type="range" name="html" id="html">
+                    <label for="CSS">CSS:</label>
+                    <input required type="range" name="CSS" id="CSS">
+                    <label for="JS">JavaScript:</label>
+                    <input required type="range" id="JS" name="JS">
+                    <label for="Python">Python:</label>
+                    <input required type="range" name="Python" id="Python">
+                    <label for="ruby">Ruby:</label>
+                    <input required required type="range" name="ruby" id="ruby">
+                    <label for="java">Java:</label>
+                    <input required type="range" name="java" id="java">
+                    <label for="php">PHP:</label>
+                    <input required type="range" name="php" id="php">
+                    <label for="c++">C++:</label>
+                    <input required type="range" name="c++" id="c++">
+                    <label for="TypeScript">TypeScript</label>
+                    <input required type="range" name="TypeScript" id="TypeScript">
+                </div>
+
+                <!-- Third part - Linkedin and Github-->
+
+                <div class="infos">
+                    <div class="form-control">
+                        <label for="linkedin">Linkedin:</label>
+                        <input required placeholder="Enter your Linkedin" id="linkedin" type="text">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="form-control">
+                        <label for="github">Github:</label>
+                        <input required placeholder="Enter your Github" id="github" type="text">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <!-- Fourth part - What you can add to the company - Text Area -->
+                <div class="historia">
+                    <label for="historia">Tell us what you can add to the company:</label>
+                    <br>
+                    <textarea cols="37" rows="10" class="area" required name="historia" id="historia" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <!-- Fifth part -  If you want to Receive notifications-->
+                <div class="email">
+                    <legend>Want to receive emails:</legend>
+                    <label for="">Yes
+                        <input checked type="radio" name="email" id="yep" value="yes">
+                    </label>
+                    <label for="">No
+                        <input type="radio" name="email" id="nop" value="no">
+                    </label>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </main>
+
+
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/cf04f5cad6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
